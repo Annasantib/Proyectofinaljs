@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.product-item{
+    margin: 3px;
+    display: grid;
+    background-color: #D5D8DC;
+    justify-content: center;
+
+}
+.login{
+    background-color: #D5D8DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem 1rem;
+    min-height: 100vh;
+}
+.all-sections{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 4fr 1fr;
+    gap: 5px;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+input{
+    padding: 4px;
+    margin: 3px;
+}
+.login-button{
+    margin: 3px;
+    padding: 4px;
+}
+.carro-compras{
+    margin-top: 15px;
+}
+.detail-carro{
+    list-style-type:none;
+    margin: 5px;
+    justify-items: end;
+    display: grid;
+}
+.total-detail{
+    list-style-type:none;
+    margin-top: 15px;
+    justify-items: end;
+    display: grid;
+}
+li{
+    margin: 2.5px;
+}
+.check{
+    margin: 3px;
+}
