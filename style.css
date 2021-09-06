@@ -28,6 +28,8 @@
     width: 28%;
     background-color: #F7EAF7;
     margin: 1%;
+    padding: 2%;
+    
 }
 .login-input{
     padding: 0.5%;
@@ -49,14 +51,16 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 3%;
+    margin: 3% 1% 0 1%;
 }
 .detail-carro{
     display: flex;
+    justify-content: space-between;
 }
 .img-detail{
     width: 25%;
     margin-left: 2%;
+    height: 75px;
 }
 .tit-carro{
     align-items: center;
@@ -68,6 +72,7 @@
     list-style-type: none;
     display: grid;
     justify-items: end;
+    padding: 5px;
 }
 .detail-total{
     list-style-type: none;
@@ -76,10 +81,11 @@
     margin-top: 7%;
 }
 .button-compra{
-    width: 90%;
+    width: 100%;
     padding: 0.6%;
-    margin: 3%;
+    margin: 3% 0 3% 0;
     display: flex;
     justify-content: space-around;
-    margin-left: 5%;
+    
 }
+
