@@ -10,7 +10,7 @@
 <body>
     <section class="all-sections">
         <section class="products-class" id="products">
-            <!-- este producto es de referencia, cuando carga la pagina, esto se borra -->
+            <!-- este producto es de referencia, cuando carga la pagina esto se borra -->
             <section class="product-item">
                 <img src="images/dulce.PNG" class="img-class">
                 <h4>Nombre del Producto</h4>
@@ -20,15 +20,17 @@
             </section>
         </section>
         <aside class="login">
-            <section>
+            <section id="loginSection">
                 <form class="login-input">
                     <h3>Inicie Sesion</h3>
-                    <input placeholder="Nombre" class="user-login">
-                    <input placeholder="Password" class="user-login">
-                    <button class="login-button">Iniciar Sesion</button>
+                    <h2 class="login-error" id="login-error">Error Inicio session</h2>
+                    <input placeholder="Nombre" class="user-login" id="usuario">
+                    <input placeholder="Password" class="user-login" id="password">
+                    <button class="login-button" id="login">Iniciar Sesion</button>
                 </form>
             </section>
-            <section class="carro-compras">
+            <section class="carro-compras" id="detail-carro">
+                <!-- este carrito es de referencia, cuando carga la pagina esto se borra -->
                 <h3 class="tit-carro">Carro de Compras</h3>
                 <section class="detail-carro">
                     <img class="img-detail" src="images/dulce.PNG">
@@ -37,17 +39,18 @@
                         <li>$1000</li>
                         <li>2 unidades</li>
                         <li>total $2000</li>
-                </ul>
+                    </ul>
                 </section>
             </section>
-            <section class="total-carro">
+            <h1 class="exito" id="exito">Tu compra se ha realizado con exito!</h1>
+            <section class="total-carro" id="total-carro">
                 <ul class="detail-total">
                     <li>Total de Productos $2000</li>
                     <li>Envio $1500</li>
                     <li>Total a comprar $3500</li>
                 </ul>
-                <button class="button-compra">Realizar Compra</button>
             </section>
+            <button class="button-compra" id="botonCompra">Realizar Compra</button>
         </aside>
     </section>
     <section class="datos-desarrollo">
